@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet's Care</title>
+    <center>
+    <h1><q> Be the hand that lifts others up</q></h1>
+    <!-- <q> is used for the quotation -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5NzzP9GtipRrBsgeIbvKdJ7eRP2K45rqZnA&s" alt="I AM HERE TO HELP U!">
+  </center>
+</head>
+
+<style>
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREdwtrfkBrNweomzPeA3zX0A32KVxJkaMqZg&s');
+       /* if u have to give bg image as full then u have to mention it in the body element */
+   }
+</style>
+
+<body>
+    <form>
+        <center>
+       <h2>Login here !</h2>
+       <label for="fname">Name :</label> <br>
+       <input type="text" id="fname" name="fname"> <br>
+       <label for="num">Mobile number:</label> <br>
+       <input type="text" id="num" name="num"> <br>
+       <p>Need Help!</p>
+       <input type="radio" id="y" name="y"  value="Yes"> 
+       <label for="y">Yes</label> <br>
+       
+       <input type="radio" id="No" name="No" value="No">
+       <label for="no">No</label><br>
+       <p>If yes, CONTACT ME? give confirm to get help!!</p>
+       <input type="checkbox" id="help1" name="help1"> 
+       <label for="help1">Confirm</label> <br>
+       <pre></pre>
+       <input type="submit" value="Submit for contactacting you !!"> <br>
+       <!-- Only submit input type has no label for ,instrad we use value inside the input -->
+       </center>
+    </form>
+    
+</body>
+</html>
